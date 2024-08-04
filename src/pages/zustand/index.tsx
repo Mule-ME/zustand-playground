@@ -1,10 +1,9 @@
-import { Box, Button, Flex, Text } from "@radix-ui/themes";
+import { Button, Flex, Text } from "@radix-ui/themes";
 const ZustandHome = () => {
   return (
     <Flex direction="column">
-      <Text>Here is a home for zustand tutorial</Text>
-
-      <Box bottom="1px solid #e33"></Box>
+      <Text>Hello from Radix Themes :)</Text>
+      <Button>Let's go</Button>
     </Flex>
   );
 };
